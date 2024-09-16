@@ -1,20 +1,20 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getFirestore} from 'firebase/firestore'
+import { getFirestore } from 'firebase/firestore';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: "tubeguruji-startups.firebaseapp.com",
-  projectId: "tubeguruji-startups",
-  storageBucket: "tubeguruji-startups.appspot.com",
-  messagingSenderId: "706430327770",
-  appId: "1:706430327770:web:83ddab49ff4f90a8ad3ee3",
-  measurementId: "G-GWL86FD0LD"
+  authDomain: "co-worker-edcd3.firebaseapp.com",
+  projectId: "co-worker-edcd3",
+  storageBucket: "co-worker-edcd3.appspot.com",
+  messagingSenderId: "775519692278",
+  appId: "1:775519692278:web:fbfde83baf0e32f09a93d7",
+  measurementId: "G-X91VS4CNJ7",
 };
 
 // Initialize Firebase
