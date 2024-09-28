@@ -12,13 +12,13 @@ function Hero() {
         <div className="relative pt-36 ml-auto">
           <div className="lg:w-2/3 text-center mx-auto">
             <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
-              Co-Worker is where{" "}
+              Quoraverse is where{" "}
               <span className="text-primary dark:text-white">
                 work happens, in sync.
               </span>
             </h1>
             <p className="mt-8 text-gray-700 dark:text-gray-300">
-              Co-Worker is a collaborative workspace that lets teams create,
+              Quaraverse is a collaborative workspace that lets teams create,
               share, and work together on projects seamlessly. It combines
               flexible pages with reusable components that sync across different
               apps, making it easy to stay organized and up-to-date.
@@ -32,14 +32,14 @@ function Hero() {
                   Get started
                 </span>
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
               >
                 <span className="relative text-base font-semibold text-primary dark:text-white">
                   Learn more
                 </span>
-              </a>
+              </a> */}
             </div>
             <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
               <div className="text-left">
